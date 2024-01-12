@@ -1,0 +1,105 @@
+body {
+    background: rgb(16, 62, 123)rgb(16, 62, 123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+#container {
+    font-family: 'times new roman', serif;
+    font-weight: 700;
+    font-size: 20px;
+    width: 800px;
+    height: 400px;
+    background-color: rgb(245, 245, 245);
+    border: 3px solid rgb(24, 58, 115);
+    color: rgb(16, 62, 123);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+
+li {
+	display: inline-block;
+	width: 50px;
+}
+
+.normal-text {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.textbox {
+    width: 17em;
+    border: 2px solid rgb(16, 62, 123);
+    color: rgb(16, 62, 123);
+    font-size: 18px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.button-1 {
+    width: 17em;
+    height: 30px;
+    border: 2px solid rgb(16, 62, 123);
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: 'montserrat', sans-serif;
+    background-color: rgb(16, 62, 123);
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.button-1:hover {
+    transform: scale(1.1);
+}
+
+.button-2 {
+    width: 17em;
+    height: 30px;
+    border: 2px solid rgb(16, 62, 123);
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: 'montserrat', sans-serif;
+    background-color: rgb(245, 245, 245);
+    color: rgb(16, 62, 123);
+    cursor: pointer;
+    transition: 0.15s;
+    margin-bottom: 10px;
+}
+
+.button-2:hover {
+    transform: scale(1.1);
+}
+
+table {
+    border: 2px solid rgb(16, 62, 123);
+    border-collapse: collapse;
+    width: 35em;
+}
+
+th, td {
+    border: 2px solid rgb(16, 62, 123);
+}
+
+.table-title {
+	color: rgb(245, 245, 245);
+	background: rgb(16, 62, 123);
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.table-text {
+    color: rgb(16, 62, 123);
+	background: rgb(245, 245, 245);
+    font-weight: 600;
+    font-size: 18px;
+}

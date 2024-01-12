@@ -1,0 +1,119 @@
+body {
+    background: rgb(16, 62, 123)rgb(16, 62, 123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+#container1 {
+    font-family: 'times new roman', serif;
+    font-weight: 700;
+    font-size: 20px;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(245, 245, 245);
+    border: 3px solid rgb(24, 58, 115);
+    color: rgb(16, 62, 123);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+#container2 {
+    font-family: 'times new roman', serif;
+    font-weight: 700;
+    font-size: 20px;
+    width: 500px;
+    height: fit-content;
+    background-color: rgb(245, 245, 245);
+    border: 3px solid rgb(24, 58, 115);
+    color: rgb(16, 62, 123);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-family: 'times new roman', serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding-right: 50px;
+    color: rgb(16, 62, 123);
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.textbox-1 {
+    width: 17em;
+    border: 2px solid rgb(16, 62, 123);
+    color: rgb(16, 62, 123);
+    font-size: 15px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.textbox-2 {
+    width: 17em;
+    height: 15em;
+    border: 2px solid rgb(16, 62, 123);
+    color: rgb(16, 62, 123);
+    font-size: 15px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+
+.textbox-3 {
+    width: 17em;
+    height: 10em;
+    border: 2px solid rgb(16, 62, 123);
+    color: rgb(16, 62, 123);
+    font-size: 15px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.button {
+    width: 17em;
+    height: 30px;
+    border: 2px solid rgb(16, 62, 123);
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: 'montserrat', sans-serif;
+    background-color: rgb(16, 62, 123);
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.isi {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+p, a {
+    color: rgb(16, 62, 123);
+    font-weight: bold;
+}
+
+a:hover {
+    color: #DD4A48;
+}
